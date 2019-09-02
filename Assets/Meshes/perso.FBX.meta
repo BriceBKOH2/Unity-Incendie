@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 926f38f2355cc47898c923906ac107c7
+timeCreated: 1431156099
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_left
+    100002: arm_right
+    100004: //RootNode
+    100006: chest_pelvis
+    100008: foot_left
+    100010: foot_right
+    100012: forearm_left
+    100014: forearm_right
+    100016: hairs 2
+    100018: hand_left
+    100020: hand_right
+    100022: leg_left
+    100024: leg_right
+    100026: lowerLeg_left
+    100028: lowerLeg_right
+    100030: shoulder_left
+    100032: shoulder_right
+    100034: tete
+    100036: tete_default
+    100038: tete_happy
+    100040: tete_sad
+    100042: tete_surprised
+    100044: tete_stressed
+    400000: arm_left
+    400002: arm_right
+    400004: //RootNode
+    400006: chest_pelvis
+    400008: foot_left
+    400010: foot_right
+    400012: forearm_left
+    400014: forearm_right
+    400016: hairs 2
+    400018: hand_left
+    400020: hand_right
+    400022: leg_left
+    400024: leg_right
+    400026: lowerLeg_left
+    400028: lowerLeg_right
+    400030: shoulder_left
+    400032: shoulder_right
+    400034: tete
+    400036: tete_default
+    400038: tete_happy
+    400040: tete_sad
+    400042: tete_surprised
+    400044: tete_stressed
+    2300000: arm_left
+    2300002: arm_right
+    2300004: chest_pelvis
+    2300006: foot_left
+    2300008: foot_right
+    2300010: forearm_left
+    2300012: forearm_right
+    2300014: hairs 2
+    2300016: hand_left
+    2300018: hand_right
+    2300020: leg_left
+    2300022: leg_right
+    2300024: lowerLeg_left
+    2300026: lowerLeg_right
+    2300028: shoulder_left
+    2300030: shoulder_right
+    2300032: tete
+    2300034: tete_default
+    2300036: tete_happy
+    2300038: tete_sad
+    2300040: tete_surprised
+    2300042: tete_stressed
+    3300000: arm_left
+    3300002: arm_right
+    3300004: chest_pelvis
+    3300006: foot_left
+    3300008: foot_right
+    3300010: forearm_left
+    3300012: forearm_right
+    3300014: hairs 2
+    3300016: hand_left
+    3300018: hand_right
+    3300020: leg_left
+    3300022: leg_right
+    3300024: lowerLeg_left
+    3300026: lowerLeg_right
+    3300028: shoulder_left
+    3300030: shoulder_right
+    3300032: tete
+    3300034: tete_default
+    3300036: tete_happy
+    3300038: tete_sad
+    3300040: tete_surprised
+    3300042: tete_stressed
+    4300000: chest_pelvis
+    4300002: shoulder_right
+    4300004: arm_right
+    4300006: forearm_right
+    4300008: hand_right
+    4300010: leg_right
+    4300012: lowerLeg_right
+    4300014: foot_right
+    4300016: leg_left
+    4300018: lowerLeg_left
+    4300020: foot_left
+    4300022: shoulder_left
+    4300024: arm_left
+    4300026: forearm_left
+    4300028: hand_left
+    4300030: tete
+    4300032: tete_default
+    4300034: tete_sad
+    4300036: tete_happy
+    4300038: tete_surprised
+    4300040: hairs 2
+    4300042: tete_stressed
+    7400000: idle
+    7400002: step right
+    7400004: step left
+    7400006: step right
+    7400008: intro
+    7400010: catch
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chest_pelvis
+        weight: 1
+      - path: chest_pelvis/leg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left/foot_left
+        weight: 1
+      - path: chest_pelvis/leg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right/foot_right
+        weight: 1
+      - path: chest_pelvis/shoulder_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left/hand_left
+        weight: 1
+      - path: chest_pelvis/shoulder_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: chest_pelvis/tete
+        weight: 1
+      - path: chest_pelvis/tete/tete_default
+        weight: 1
+      - path: chest_pelvis/tete/tete_happy
+        weight: 1
+      - path: chest_pelvis/tete/tete_sad
+        weight: 1
+      - path: chest_pelvis/tete/tete_stressed
+        weight: 1
+      - path: chest_pelvis/tete/tete_surprised
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: step right
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chest_pelvis
+        weight: 1
+      - path: chest_pelvis/leg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left/foot_left
+        weight: 1
+      - path: chest_pelvis/leg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right/foot_right
+        weight: 1
+      - path: chest_pelvis/shoulder_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left/hand_left
+        weight: 1
+      - path: chest_pelvis/shoulder_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: chest_pelvis/tete
+        weight: 1
+      - path: chest_pelvis/tete/tete_default
+        weight: 1
+      - path: chest_pelvis/tete/tete_happy
+        weight: 1
+      - path: chest_pelvis/tete/tete_sad
+        weight: 1
+      - path: chest_pelvis/tete/tete_stressed
+        weight: 1
+      - path: chest_pelvis/tete/tete_surprised
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: step left
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chest_pelvis
+        weight: 1
+      - path: chest_pelvis/leg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left/foot_left
+        weight: 1
+      - path: chest_pelvis/leg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right/foot_right
+        weight: 1
+      - path: chest_pelvis/shoulder_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left/hand_left
+        weight: 1
+      - path: chest_pelvis/shoulder_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: chest_pelvis/tete
+        weight: 1
+      - path: chest_pelvis/tete/tete_default
+        weight: 1
+      - path: chest_pelvis/tete/tete_happy
+        weight: 1
+      - path: chest_pelvis/tete/tete_sad
+        weight: 1
+      - path: chest_pelvis/tete/tete_stressed
+        weight: 1
+      - path: chest_pelvis/tete/tete_surprised
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: catch
+      takeName: Take 001
+      firstFrame: 67
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chest_pelvis
+        weight: 1
+      - path: chest_pelvis/leg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left/foot_left
+        weight: 1
+      - path: chest_pelvis/leg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right/foot_right
+        weight: 1
+      - path: chest_pelvis/shoulder_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left/hand_left
+        weight: 1
+      - path: chest_pelvis/shoulder_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: chest_pelvis/tete
+        weight: 1
+      - path: chest_pelvis/tete/tete_default
+        weight: 1
+      - path: chest_pelvis/tete/tete_happy
+        weight: 1
+      - path: chest_pelvis/tete/tete_sad
+        weight: 1
+      - path: chest_pelvis/tete/tete_stressed
+        weight: 1
+      - path: chest_pelvis/tete/tete_surprised
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: intro
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chest_pelvis
+        weight: 1
+      - path: chest_pelvis/leg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left
+        weight: 1
+      - path: chest_pelvis/leg_left/lowerLeg_left/foot_left
+        weight: 1
+      - path: chest_pelvis/leg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right
+        weight: 1
+      - path: chest_pelvis/leg_right/lowerLeg_right/foot_right
+        weight: 1
+      - path: chest_pelvis/shoulder_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left
+        weight: 1
+      - path: chest_pelvis/shoulder_left/arm_left/forearm_left/hand_left
+        weight: 1
+      - path: chest_pelvis/shoulder_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right
+        weight: 1
+      - path: chest_pelvis/shoulder_right/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: chest_pelvis/tete
+        weight: 1
+      - path: chest_pelvis/tete/tete_default
+        weight: 1
+      - path: chest_pelvis/tete/tete_happy
+        weight: 1
+      - path: chest_pelvis/tete/tete_sad
+        weight: 1
+      - path: chest_pelvis/tete/tete_stressed
+        weight: 1
+      - path: chest_pelvis/tete/tete_surprised
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
